@@ -1,24 +1,25 @@
 import React from 'react';
 
-// import { AboutUs, Chef, FindUs, Footer, Gallery, Headers, Intro, Laurels, SpecialMenu } from './container';
+import { Header } from './container';
 import { Navbar } from './components';
-// import './App.css';
+import './App.css';
 
-const App = () => {
-  return (
+function App(){
+  return(
     <div>
-        <Navbar />
-        {/* <Headers />
-        <AboutUs />
-        <SpecialMenu />
-        <Chef />
-        <Intro />
-        <Laurels />
-        <Gallery />
-        <FindUs />
-        <Footer /> */}
+      <Navbar />
+      <Header />
+      {/*<AboutUs />
+      <SpecialMenu />
+      <Chef />
+      <Intro />
+      <Laurels />
+      <Gallery />
+      <FindUs />
+      <Footer /> */}
     </div>
   )
+
 }
 
-export default App
+export default App;
